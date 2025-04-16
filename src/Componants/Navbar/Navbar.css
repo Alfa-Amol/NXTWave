@@ -1,7 +1,15 @@
 
 
 .Navbar{
-    text-align: center;
     
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
 
+.Navbar > div{
+margin: 15px;
+    
 }

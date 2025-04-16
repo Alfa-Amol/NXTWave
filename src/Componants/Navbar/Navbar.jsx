@@ -1,17 +1,18 @@
 import React from 'react'
 import './Navbar.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import * as Icon from 'react-bootstrap-icons';
 
 
 function Navbar() {
   return (
     
     <div className='Navbar '>
-        <h3>SHOP</h3>
-        <h3>SKILLS</h3>
-         <h3>STORIES</h3>
-        <h3>ABOUT</h3>
-        <h3>CONTACT US</h3>
+     
+        <div >Skills</div>
+        <div>About</div>
+        <div>Stories</div>
+        <div>Contact Us</div>
     </div>
   )
 }
