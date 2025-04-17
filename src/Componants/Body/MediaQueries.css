@@ -1,8 +1,12 @@
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .product-page {
       padding: 1rem;
+    }
+
+    .logo {
+      margin-left: 36%;
     }
   
     .header h1 {
@@ -54,6 +58,7 @@
 
     .filter-sidebar{
         display: none;
-    }
+    } 
+
   }
   
